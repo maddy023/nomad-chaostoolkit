@@ -9,31 +9,30 @@
 
 # Features
 
-Terminate / Restart Random Allocations
-Drain Node
-Increase / Decrease Allocation Memory / CPU 
+- Terminate / Restart Random Allocations
+- Drain Random Node
+- Increase / Decrease Allocation Memory & CPU 
 
 # Requirements
 
-[Docker](https://docs.docker.com/engine/install/ "Docker") >=20.10.0
-[Consul](https://developer.hashicorp.com/consul/docs/install "Consul") >=1.13.0 
-[Nomad](https://developer.hashicorp.com/nomad/docs/install "Nomad") >=1.5.0
-[Chaostoolkit](https://chaostoolkit.org/reference/usage/install/ "Chaostoolkit") >=1.15.1
-[python-nomad](https://github.com/jrxFive/python-nomad/ "python-nomad")
+- [Docker](https://docs.docker.com/engine/install/ "Docker") >=20.10.0
+- [Consul](https://developer.hashicorp.com/consul/docs/install "Consul") >=1.13.0 
+- [Nomad](https://developer.hashicorp.com/nomad/docs/install "Nomad") >=1.5.0
+- [Chaostoolkit](https://chaostoolkit.org/reference/usage/install/ "Chaostoolkit") >=1.15.1
+- [python-nomad](https://github.com/jrxFive/python-nomad/ "python-nomad")
 
 # Deployment
 
-# Start Consul Dev
+## Start Consul Dev
 ```sh
 consul agent -dev
 ```
-
-# Start Nomad Dev 
+## Start Nomad Dev 
 ```sh
 nomad agent -dev -bind 0.0.0.0 -log-level INFO
 ```
 
-# how to run experiment?
+# How to run experiment?
 
 If you dont have any nomad job, deploy demo.nomad
 
