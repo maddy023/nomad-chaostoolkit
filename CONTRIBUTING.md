@@ -10,4 +10,3 @@ Make sure you follow below guidelines before contributing.
 - Raise an PR, with your new experiments code logic.
 - Make you changes to feature branch.
 - See if there is already an open PR for the same issue.
-- All Pull Request must be on dev branch & NOT master
