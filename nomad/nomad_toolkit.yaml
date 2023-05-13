@@ -1,0 +1,25 @@
+title: Check if service remains available after terminating a random allocation
+description: Check if service remains available after terminating a random allocation
+steady_state_hypothesis:
+  title: Service is available
+  probes:
+    - type: probe
+      name: service_must_be_available
+      tolerance: true
+      provider:
+        type: python
+        func: check_service_availability
+        module: service_check
+method:
+  - type: action
+    name: terminate_random_allocation
+    provider:
+      type: python
+      func: terminate_random_allocation
+      module: nomad_chaos
+  - type: action
+    name: reschedule_random_allocation
+    provider:
+      type: python
+      func: reschedule_random_allocation
+      module: nomad_chaos
