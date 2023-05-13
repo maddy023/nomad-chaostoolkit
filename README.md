@@ -7,13 +7,13 @@
 
 > Designed to bring chaos engineering principles to the Nomad orchestration platform. The project provides various chaos experiments that can be executed on Nomad clusters via Choastoolkit
 
-# Features
+## Features
 
 - Terminate / Restart Random Allocations
 - Drain Random Node
 - Increase / Decrease Allocation Memory & CPU 
 
-# Requirements
+## Requirements
 
 - [Docker](https://docs.docker.com/engine/install/ "Docker") >=20.10.0
 - [Consul](https://developer.hashicorp.com/consul/docs/install "Consul") >=1.13.0 
@@ -21,7 +21,7 @@
 - [Chaostoolkit](https://chaostoolkit.org/reference/usage/install/ "Chaostoolkit") >=1.15.1
 - [python-nomad](https://github.com/jrxFive/python-nomad/ "python-nomad")
 
-# Setup Local Environment
+## Setup Local Environment
 
 ### Start Consul Dev
 ```sh
