@@ -21,13 +21,13 @@
 - [Chaostoolkit](https://chaostoolkit.org/reference/usage/install/ "Chaostoolkit") >=1.15.1
 - [python-nomad](https://github.com/jrxFive/python-nomad/ "python-nomad")
 
-# Deployment
+# Setup Local Environment
 
-## Start Consul Dev
+### Start Consul Dev
 ```sh
 consul agent -dev
 ```
-## Start Nomad Dev 
+### Start Nomad Dev 
 ```sh
 nomad agent -dev -bind 0.0.0.0 -log-level INFO
 ```
