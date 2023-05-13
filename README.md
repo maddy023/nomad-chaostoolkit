@@ -58,7 +58,7 @@ chaos run nomad_toolkit.yaml
 
 ## 📝 Changelog
 
-See the [CHANGELOG.md](ttps://github.com/maddy023/nomad-chaostoolkit/blob/master/CHANGELOG.md) file for details.
+See the [CHANGELOG.md](https://github.com/maddy023/nomad-chaostoolkit/blob/master/CHANGELOG.md) file for details.
 
 ## 🤝 Contributing
 
