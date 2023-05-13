@@ -56,6 +56,10 @@ chaos run nomad_toolkit.yaml
 * Github: [@maddy023](https://github.com/maddy023)
 * LinkedIn: [@https:\/\/www.linkedin.com\/in\/mhathesh-tsr\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/mhathesh-tsr\/)
 
+## 📝 Changelog
+
+See the [CHANGELOG.md](ttps://github.com/maddy023/nomad-chaostoolkit/blob/master/CHANGELOG.md) file for details.
+
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/maddy023/nomad-chaostoolkit/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/maddy023/nomad-chaostoolkit/issues). You can also take a look at the [contributing guide](https://github.com/maddy023/nomad-chaostoolkit/blob/master/CONTRIBUTING.md).
